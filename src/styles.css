@@ -1,1 +1,55 @@
+body {
+  font-family: "Noto Serif JP", serif;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/rome-header-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 260px;
+}
+header h1 {
+  font-size: 86px;
+  margin: 20px;
+  font-weight: 500;
+}
+header h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+header h3 {
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 200;
+}
 
+header a {
+  background: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 32px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+}
