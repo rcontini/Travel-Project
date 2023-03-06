@@ -53,6 +53,21 @@ footer {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+main {
+  background-color: white;
+}
+main h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0;
+}
+main img {
+  max-width: 100%;
+  height: auto;
 }
 
 footer h3 {
@@ -84,6 +99,13 @@ footer a {
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
 }
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-footer {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -96,5 +118,12 @@ footer a {
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  section {
+    padding: 36px;
   }
 }
