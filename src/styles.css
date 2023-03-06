@@ -61,13 +61,16 @@ main {
 main h3 {
   font-weight: 500;
   font-size: 36px;
-  line-height: 1.5;
   text-transform: uppercase;
   margin: 0;
 }
 main img {
   max-width: 100%;
   height: auto;
+}
+main p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 footer h3 {
@@ -97,7 +100,7 @@ footer a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
@@ -121,7 +124,7 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
   section {
     padding: 36px;
