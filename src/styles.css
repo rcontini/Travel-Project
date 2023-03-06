@@ -55,6 +55,12 @@ section {
   margin: 0 auto;
   padding: 100px 0;
 }
+section.secondary {
+  background-color: #f4eae2;
+}
+.text-center {
+  text-align: center;
+}
 main {
   background-color: white;
 }
@@ -107,6 +113,24 @@ footer a {
 }
 .grid-footer {
   grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background-color: white;
+}
+.card h4 {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 1.5;
+  color: black;
+}
+.button {
+  display: block;
+  text-align: center;
+  background-color: #f4eae2;
+  color: black;
 }
 
 @media (max-width: 960px) {
